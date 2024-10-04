@@ -1,0 +1,2 @@
+Perimeter (pixels): 5642
+Perimeter (km): 2651.865

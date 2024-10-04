@@ -1,0 +1,2 @@
+Area (pixels): 405865
+Area (km^2): 122.888

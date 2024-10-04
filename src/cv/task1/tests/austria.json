@@ -1,0 +1,13 @@
+{
+  "testcases": [
+    {
+      "name": "austria",
+      "image_path": "data/input/austria.png",
+      "kernel_size_morph": 25,
+      "kernel_size_perimeter": 5,
+      "px_to_m": 635.0,
+      "scale_adjustment_divisor_area": 1.940,
+      "scale_adjustment_divisor_perimeter": 1.351
+    }
+  ]
+}

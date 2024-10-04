@@ -1,0 +1,2 @@
+Center x: 816
+Center y: 394

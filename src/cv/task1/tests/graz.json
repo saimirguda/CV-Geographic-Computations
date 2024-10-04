@@ -1,0 +1,13 @@
+{
+  "testcases": [
+    {
+      "name": "graz",
+      "image_path": "data/input/graz.png",
+      "kernel_size_morph": 11,
+      "kernel_size_perimeter": 5,
+      "px_to_m": 26.458,
+      "scale_adjustment_divisor_area": 2.312,
+      "scale_adjustment_divisor_perimeter": 1.689
+    }
+  ]
+}
