@@ -295,8 +295,8 @@ void algorithms::calc_perimeter(const std::vector<std::vector<cv::Point>> &conto
                                 int &perimeter_px, float &perimeter_km)
 {
     auto largestContourIt = std::max_element(contours.begin(), contours.end(),[](const std::vector<cv::Point>& a, const std::vector<cv::Point>& b) {
-                                                 return cv::contourArea(a) < cv::contourArea(b);
-                                             });
+        return cv::contourArea(a) < cv::contourArea(b);
+    });
 
     if (largestContourIt == contours.end()) {
         perimeter_px = 0;
